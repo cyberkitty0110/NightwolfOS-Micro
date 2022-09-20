@@ -12,4 +12,4 @@ Information for commits and edits/revisions:
   
 -------------------------------------------------------------------------------------------------------------------
 
-Tools used in NWOS-M are NOT owned or developed by cyberkitty0110 unless otherwise stated. Such tools as: OSIntgram, Sherlock, etc. are intellectual property of their respective developers.
+Tools used in NWOS-M are NOT owned or developed by cyberkitty0110 unless otherwise stated. Such tools are intellectual property of their respective developers.
