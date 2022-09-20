@@ -1,4 +1,4 @@
-# NightwolfOS pentesting microOS, developed by NightwolfOffSec
+# NightwolfOS pentesting microOS, developed by cyberkitty0110
 
 '''Imports'''
 from asyncore import read
