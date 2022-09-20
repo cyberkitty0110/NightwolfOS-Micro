@@ -11,7 +11,6 @@ import platform
 
 # Defining functions
 def SYSINFO():
-    clear()
     hware = platform.uname()
 
     print(f"System: {hware.system}")
@@ -112,4 +111,12 @@ What do you wish to do?
 [1] Display System Information
 '''.format(hostname))
 if MM == 1:
-    SYSINFO()
+    clear()
+    hware = platform.uname()
+
+    print(f"System: {hware.system}")
+    print(f"Node Name: {hware.node}")
+    print(f"Release: {hware.release}")
+    print(f"Version: {hware.version}")
+    print(f"Machine: {hware.machine}")
+    print(f"Processor: {hware.processor}")
