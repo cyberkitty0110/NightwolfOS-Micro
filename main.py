@@ -7,6 +7,19 @@ import time
 import os
 from os import system, name
 import socket
+import platform
+
+# Defining functions
+def SYSINFO():
+    clear()
+    hware = platform.uname()
+
+    print(f"System: {hware.system}")
+    print(f"Node Name: {hware.node}")
+    print(f"Release: {hware.release}")
+    print(f"Version: {hware.version}")
+    print(f"Machine: {hware.machine}")
+    print(f"Processor: {hware.processor}")
 
 # Defining the CLEAR function
 def clear():
@@ -76,7 +89,7 @@ clear()
 print('Your Computer name is: '+hostname)
 print('')
 print('Your IP address is: '+IPAddr)
-time.sleep(1)
+time.sleep(.5)
 clear()
 print('''
     _   __ ( )       __     __                    __ ____   ____  _____
@@ -96,7 +109,7 @@ Welcome to NightwolfOS, {}
 
 What do you wish to do?
 -----------------------
-[1] EXIT OPERATING SYSTEM
+[1] Display System Information
 '''.format(hostname))
 if MM == 1:
-    exit()
+    SYSINFO()
