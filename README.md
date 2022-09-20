@@ -11,3 +11,5 @@ Information for commits and edits/revisions:
   then edit the TODO file so to avoid repetitions.
   
 -------------------------------------------------------------------------------------------------------------------
+
+Tools used in NWOS-M are NOT owned or developed by cyberkitty0110 unless otherwise stated. Such tools as: OSIntgram, Sherlock, etc. are intellectual property of their respective developers.
