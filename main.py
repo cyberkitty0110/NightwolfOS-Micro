@@ -7,18 +7,10 @@ import time
 import os
 from os import system, name
 import socket
-import platform
+
 
 # Defining functions
-def SYSINFO():
-    hware = platform.uname()
 
-    print(f"System: {hware.system}")
-    print(f"Node Name: {hware.node}")
-    print(f"Release: {hware.release}")
-    print(f"Version: {hware.version}")
-    print(f"Machine: {hware.machine}")
-    print(f"Processor: {hware.processor}")
 
 # Defining the CLEAR function
 def clear():
@@ -112,11 +104,3 @@ What do you wish to do?
 '''.format(hostname))
 if MM == 1:
     clear()
-    hware = platform.uname()
-
-    print(f"System: {hware.system}")
-    print(f"Node Name: {hware.node}")
-    print(f"Release: {hware.release}")
-    print(f"Version: {hware.version}")
-    print(f"Machine: {hware.machine}")
-    print(f"Processor: {hware.processor}")
