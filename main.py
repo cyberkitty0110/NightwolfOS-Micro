@@ -13,20 +13,20 @@ def clear():
     if name == 'nt':
         _ = system('cls')
 
-    # For UNIX systems (Linux, MacOS, etc. os.name is 'posix)
+    # For UNIX systems (Linux, MacOS, etc. os.name is 'posix')
     else:
         _ = system('clear')
 
 # --------------------------
 
 print('Locating Kernel...')
-time.sleep(2)
+time.sleep(1.15)
 clear()
 print('Kernel found, "NightwolfOS v1.0" now loading...')
-time.sleep(4)
+time.sleep(1.50)
 clear()
 print('Kernel loaded! Starting OS now!')
-time.sleep(3)
+time.sleep(2)
 clear()
 print('''
 d8b   db d888888b  d888b  db   db d888888b db   d8b   db  .d88b.  db      d88888b    .d88b.  .d8888. 
