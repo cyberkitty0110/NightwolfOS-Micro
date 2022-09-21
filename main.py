@@ -1,13 +1,14 @@
 # NightwolfOS pentesting microOS, developed by cyberkitty0110
 
-'''Imports'''
-from asyncore import read
-from genericpath import exists
+# Defining Imports
+
 import time
 import os
-from os import system, name
 import socket
 
+from os import system, name
+from asyncore import read
+from genericpath import exists
 
 # Defining functions
 
@@ -95,12 +96,12 @@ clear()
 
 # Main Menu
 
-MM = input('''
+MainMenu = input('''
 Welcome to NightwolfOS, {} 
 
 What do you wish to do?
 -----------------------
-[1] Display System Information
+[1] Exit
 '''.format(hostname))
-if MM == 1:
+if MainMenu == 1:
     clear()
