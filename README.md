@@ -13,3 +13,15 @@ Information for commits and edits/revisions:
 -------------------------------------------------------------------------------------------------------------------
 
 Tools used in NWOS-M are NOT owned or developed by cyberkitty0110 unless otherwise stated. Such tools are intellectual property of their respective developers.
+
+-------------------------------------------------------------------------------------------------------------------
+
+# INSTALLATION
+
+In your terminal of choice, with Git installed, run git clone https://github.com/cyberkitty0110/NightwolfOS-Micro
+
+After you run git clone, change into the directory: cd NightwolfOS-Micro
+
+Then run pip install -r requirements.txt
+
+And you're good to go!
