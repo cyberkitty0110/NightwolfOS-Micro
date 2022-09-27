@@ -1,19 +1,21 @@
 # NightwolfOS pentesting microOS, developed by cyberkitty0110
+
 # Defining Libraries
 from nwosimplib import *
 
 # Defining functions
-
+def startup():
+    kernelbootload()
+    biosstart()
+    iplog()
 
 # Hostname and IP address configuration
 
 hostname = socket.gethostname()
 IPAddr = socket.gethostbyname(hostname)
 
-# Kernel and OS loading sequence, purely aesthetic.
-kernelbootload()
-biosstart()
-iplog()
+# Startup sequence, purely aesthetic.
+startup()
 
 clear()
 print('''
@@ -34,7 +36,11 @@ Welcome to NightwolfOS, {}
 
 What do you wish to do?
 -----------------------
-[1] Exit
+[1] doxwolf (Username DOXXER)
+
 '''.format(hostname))
-if MainMenu == 1:
-    clear()
+if MainMenu ==1:
+    doxwolf.doxwolf()
+else:
+    exit
+    
