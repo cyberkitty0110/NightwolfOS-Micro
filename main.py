@@ -39,7 +39,7 @@ What do you wish to do?
 [1] doxwolf (Username DOXXER)
 
 '''.format(hostname))
-if MainMenu ==1:
+if MainMenu == '1':
     doxwolf.doxwolf()
 else:
     exit
